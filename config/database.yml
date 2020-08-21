@@ -28,4 +28,4 @@ test:
 production:
   <<: *default
   database: recipe_production
-  url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['https://kcobbs--homework.herokuapp.com/login'] %>
